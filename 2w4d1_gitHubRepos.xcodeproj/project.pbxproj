@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		888C56941F1D4AFB006D3875 /* Repos.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56931F1D4AFB006D3875 /* Repos.m */; };
 		88CDAF361F1D38AC00ACD3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAF351F1D38AC00ACD3DA /* main.m */; };
 		88CDAF391F1D38AC00ACD3DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAF381F1D38AC00ACD3DA /* AppDelegate.m */; };
 		88CDAF3C1F1D38AC00ACD3DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAF3B1F1D38AC00ACD3DA /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		888C56921F1D4AFB006D3875 /* Repos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repos.h; sourceTree = "<group>"; };
+		888C56931F1D4AFB006D3875 /* Repos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repos.m; sourceTree = "<group>"; };
 		88CDAF311F1D38AC00ACD3DA /* 2w4d1_gitHubRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2w4d1_gitHubRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CDAF351F1D38AC00ACD3DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88CDAF371F1D38AC00ACD3DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				88CDAF381F1D38AC00ACD3DA /* AppDelegate.m */,
 				88CDAF3A1F1D38AC00ACD3DA /* ViewController.h */,
 				88CDAF3B1F1D38AC00ACD3DA /* ViewController.m */,
+				888C56921F1D4AFB006D3875 /* Repos.h */,
+				888C56931F1D4AFB006D3875 /* Repos.m */,
 				88CDAF3D1F1D38AC00ACD3DA /* Main.storyboard */,
 				88CDAF401F1D38AC00ACD3DA /* Assets.xcassets */,
 				88CDAF421F1D38AC00ACD3DA /* LaunchScreen.storyboard */,
@@ -216,6 +221,7 @@
 				88CDAF3C1F1D38AC00ACD3DA /* ViewController.m in Sources */,
 				88CDAF391F1D38AC00ACD3DA /* AppDelegate.m in Sources */,
 				88CDAF361F1D38AC00ACD3DA /* main.m in Sources */,
+				888C56941F1D4AFB006D3875 /* Repos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				88CDAF551F1D38AC00ACD3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88CDAF561F1D38AC00ACD3DA /* Build configuration list for PBXNativeTarget "2w4d1_gitHubReposTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				88CDAF581F1D38AC00ACD3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
